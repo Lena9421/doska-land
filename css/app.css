@@ -3690,7 +3690,7 @@ body.compensate-for-scrollbar
 {
     padding: 500px 0;
 
-    background-image: url(../images/bg-1@1920.png);
+    background-image: url(../images/bg-1@1920.jpg);
 }
 
 .section-block--advantages
@@ -3738,7 +3738,7 @@ body.compensate-for-scrollbar
     height: 1070px;
     padding: 60px 150px;
 
-    background-image: url(../images/bg-5@1920.png);
+    background-image: url(../images/bg-5@1920.jpg);
 }
 
 .section-block--usage .section-block__title
@@ -3757,7 +3757,7 @@ body.compensate-for-scrollbar
     min-height: 713px;
     padding: 90px 115px 105px 170px;
 
-    background-image: url(../images/bg-6@1920.png);
+    background-image: url(../images/bg-6@1920.jpg);
 
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -3806,7 +3806,12 @@ body.compensate-for-scrollbar
     min-height: 977px;
     padding: 110px 165px 81px;
 
-    background-image: url(../images/bg-7@1920.png);
+    background-image: url(../images/bg-7@1920.jpg);
+}
+
+.section-block--calculation .section-block__title
+{
+    margin-bottom: 30px;
 }
 
 .section-block--contacts
@@ -4947,8 +4952,6 @@ body.compensate-for-scrollbar
     height: 35px;
 
     cursor: pointer;
-    -webkit-transition: .3s;
-            transition: .3s;
 
     border: 10px solid #ffd200;
     -webkit-border-radius: 50%;
@@ -5813,17 +5816,17 @@ div.cotacts-map__item
 
     .section-block--intro
     {
-        background-image: url(../images/bg-1@1280.png);
+        background-image: url(../images/bg-1@1280.jpg);
     }
 
     .section-block--advantages
     {
-        background-image: url(../images/bg-2@1280.png);
+        background-image: url(../images/bg-2@1280.jpg);
     }
 
     .section-block--price
     {
-        background-image: url(../images/bg-3@1280.png);
+        background-image: url(../images/bg-3@1280.jpg);
     }
 
     .section-block--order
@@ -5831,12 +5834,12 @@ div.cotacts-map__item
         min-height: 800px;
         padding: 50px 10%;
 
-        background-image: url(../images/bg-4@1280.png);
+        background-image: url(../images/bg-4@1280.jpg);
     }
 
     .section-block--usage
     {
-        background-image: url(../images/bg-5@1280.png);
+        background-image: url(../images/bg-5@1280.jpg);
     }
 
     .section-block--reviews .owl-dots
@@ -5849,7 +5852,7 @@ div.cotacts-map__item
         height: 100vh;
         padding: 35px 100px 100px 180px;
 
-        background-image: url(../images/bg-6@1280.png);
+        background-image: url(../images/bg-6@1280.jpg);
     }
 
     .section-block--calculation
@@ -6295,21 +6298,21 @@ div.cotacts-map__item
     {
         min-height: 700px;
 
-        background-image: url(../images/bg-1@768.png);
+        background-image: url(../images/bg-1@768.jpg);
     }
 
     .section-block--price
     {
         padding: 40px 0;
 
-        background-image: url(../images/bg-3@768.png);
+        background-image: url(../images/bg-3@768.jpg);
     }
 
     .section-block--order
     {
         padding: 30px 0;
 
-        background-image: url(../images/bg-4@768.png);
+        background-image: url(../images/bg-4@768.jpg);
     }
 
     .section-block--usage
@@ -6338,7 +6341,7 @@ div.cotacts-map__item
         padding: 30px;
         padding: 60px 30px 100px;
 
-        background-image: url(../images/bg-6@768.png);
+        background-image: url(../images/bg-6@768.jpg);
 
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -6358,7 +6361,7 @@ div.cotacts-map__item
     {
         padding: 40px;
 
-        background-image: url(../images/bg-7@768.png);
+        background-image: url(../images/bg-7@768.jpg);
     }
 
     .section-block .btn--primary
@@ -6920,7 +6923,7 @@ div.cotacts-map__item
     {
         min-height: 530px;
 
-        background-image: url(../images/bg-1@320.png);
+        background-image: url(../images/bg-1@768.jpg);
     }
 
     .section-block--advantages
@@ -6931,8 +6934,6 @@ div.cotacts-map__item
     .section-block--price
     {
         padding: 20px;
-
-        background-image: url(../images/bg-3@320.png);
     }
 
     .section-block--order
