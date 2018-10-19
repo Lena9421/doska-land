@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Доски</title>
+	<meta name="keywords" content="keywords" />
+	<meta name="description" content="description" />
+	<!--favicon-->
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+	<link rel="manifest" href="favicons/site.webmanifest">
+	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ff0000">
+
+
+	<!--viewport-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0" />
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+	<!--modernizr-->
+	<script src="js/modernizr.js"></script>
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if IE]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<link href= "css/ie.css" rel= "stylesheet" media= "all" />
+<![endif]-->
+	<!--styles-->
+	<link rel="stylesheet" type="text/css" href="css/app.css?v=1.0" />
+</head>
+
+<body>
+
+	<div class="wrapper">
+		
+		<div id="full page">
+			<section class="section-block section-block--intro" id="intro">
+				<div class="top-nav">
+					<div class="top-nav__wrapper">
+						<div class="top-nav__container top-nav__container--left">
+							<div class="top-nav__menu-btn js-burger-parent">
+								<div class="hamburger">
+									<span class="hamburger__line"></span>
+									<span class="hamburger__line"></span>
+									<span class="hamburger__line"></span>
+								</div>
+							</div>
+							<div class="top-nav__img-wrapper">
+								<svg class="logo">
+									<use xlink:href="images/sprite/sprite.svg#logo">
+									</use>
+								</svg>
+							</div>
+							<div class="top-nav__text-wrapper">
+								<p class="top-nav__text">
+									Строительные материалы для&nbspкаркасного строительства
+								</p>
+							</div>
+						</div>
+						<div class="top-nav__container top-nav__container--right">
+							<span class="top-nav__tel">
+                        <a href="tel:+7 (812) 666-67-67">+7 (812) 666-67-67</a><br>
+                        <a href="tel:+7 (921) 414-83-61">+7
+                            (921) 414-83-61</a>
+                    </span>
+
+							<a href="#application-modal" class="top-nav__link js-fb-btn">
+								<span class="top-nav__link-wrapper">Перезвоните мне</span> 
+							</a>
+						</div>
+						<a class="arrow js-arrow-parent" href="#" id="js-parent">
+							<i class="arrow__icon js-arrow"></i>
+						</a>
+					</div>
+				</div>
+				<div class="overlay"></div>
+				<div class="main-nav">
+					<ul class="main-nav__list">
+						<li class="main-nav__item"><a class="main-nav__link js-nav-link active" href="#intro">Доска</a>
+						</li>
+						<li class="main-nav__item"><a class="main-nav__link js-nav-link" href="#advantages">Преимущества</a>
+						</li>
+						<li class="main-nav__item"><a class="main-nav__link js-nav-link" href="#price">Стоимость</a> 
+						</li>
+						<li class="main-nav__item"><a class="main-nav__link js-nav-link" href="#order"> Скидки / Условия</a>
+						</li>
+						<li class="main-nav__item"><a class="main-nav__link js-nav-link" href="#usage">Применение</a> 
+						</li>
+						<li class="main-nav__item"><a class="main-nav__link js-nav-link" href="#reviews"> Отзывы</a>
+						</li>
+						<li class="main-nav__item"><a class="main-nav__link js-nav-link" href="#calculation">Расчитать заказ</a>
+						</li>
+						<li class="main-nav__item"><a class="main-nav__link js-nav-link" href="#contacts">Контакты</a>
+						</li>
+					</ul>
+				</div>
+				<div class="promotion-block">
+					<div class="promotion-block__wrapper">
+						<div class="promotion-block__img-wrap">
+							<img class="promotion-block__img" src="images/promo.png">
+						</div>
+						<div class="promotion-block__list-btn-wrap">
+							<ul class="promotion-block__list">
+								<li class="promotion-block__item">Любые объёмы поставок</li>
+								<li class="promotion-block__item">всегда низкие цены</li>
+								<li class="promotion-block__item">быстрая доставка от 1 доски</li>
+								<li class="promotion-block__item">скидки постоянным клиентам</li>
+							</ul>
+							<a class="btn btn--primary js-fb-btn" href="#application-modal">Заказать доску</a>
+						</div>
+					</div>
+				</div>
+				<div class="contacts">
+					<ul class="contacts__list">
+						<li class="contacts__list-item">
+							<a href="mailto:pguk.gkgroup@gmail.com" class="contacts__link">
+								<svg class="contacts__icon contacts__icon--letter">
+									<use xlink:href="images/sprite/sprite.svg#letter">
+									</use>
+								</svg>
+							</a>
+						</li>
+						<li class="contacts__list-item">
+							<a href="whatsapp://send?phone=+7931-287-19-47" class="contacts__link">
+								<svg class="contacts__icon contacts__icon--whats">
+									<use xlink:href="images/sprite/sprite.svg#whats">
+									</use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="section-block section-block--advantages" id="advantages">
+				<div class="section-block__wrapper section-block__wrapper--top">
+					<div class="section-block__col section-block__col--img-wrap">
+						<img class="section-block__img section-block__img--size" src="images/size.png" width="848" height="364" alt="доска">
+					</div>
+					<div class="section-block__col">
+						<h2 class="section-block__title">
+                    Толщина доски&nbsp- преимущество!
+                </h2>
+						<p class="section-block__text">
+							При регламентированной толщине доски для каркасного строительства в 38 мм, но недостаточности производства, используют толщину 45 мм. Между тем использовать можно и нужно доску толщиной 38 мм, так как это дает ряд преимуществ:
+						</p>
+					</div>
+
+				</div>
+				<div class="section-block__row owl-carousel">
+					<div class="section-block__column">
+						<svg class="section-block__ic section-block__ic--kg">
+							<use xlink:href="images/sprite/sprite.svg#kg">
+							</use>
+						</svg>
+						<p class="section-block__desc">
+							Доска легче, следовательно упрощается процесс строительства
+						</p>
+						<div class="section-block__ic-wrap">
+							<svg class="section-block__ic section-block__ic--like">
+								<use xlink:href="images/sprite/sprite.svg#like">
+								</use>
+							</svg>
+						</div>
+					</div>
+					<div class="section-block__column">
+						<svg class="section-block__ic section-block__ic--crane">
+							<use xlink:href="images/sprite/sprite.svg#constr">
+							</use>
+						</svg>
+						<p class="section-block__desc">
+							Уменьшение объема пиломатериала в конструкции стены
+						</p>
+
+						<div class="section-block__ic-wrap">
+							<svg class="section-block__ic section-block__ic--like">
+								<use xlink:href="images/sprite/sprite.svg#like">
+								</use>
+							</svg>
+						</div>
+					</div>
+					<div class="section-block__column">
+						<svg class="section-block__ic section-block__ic--certificate">
+							<use xlink:href="images/sprite/sprite.svg#certificate">
+							</use>
+						</svg>
+						<p class="section-block__desc">
+							Толщина доски регламентирована Сводом Правил по строительству каркасных домов в РФ, СП-31.105.2005
+						</p>
+						<div class="section-block__ic-wrap">
+							<svg class="section-block__ic section-block__ic--like">
+								<use xlink:href="images/sprite/sprite.svg#like">
+								</use>
+							</svg>
+						</div>
+					</div>
+					<div class="section-block__column">
+						<svg class="section-block__ic section-block__ic--fire">
+							<use xlink:href="images/sprite/sprite.svg#fire">
+							</use>
+						</svg>
+						<p class="section-block__desc">
+							Улучшаются теплоизоляционные свойства дома
+						</p>
+						<div class="section-block__ic-wrap">
+							<svg class="section-block__ic section-block__ic--like">
+								<use xlink:href="images/sprite/sprite.svg#like">
+								</use>
+							</svg>
+						</div>
+					</div>
+					<div class="section-block__column">
+						<svg class="section-block__ic section-block__ic--tools">
+							<use xlink:href="images/sprite/sprite.svg#tools">
+							</use>
+						</svg>
+						<p class="section-block__desc">
+							Допустимо использовать более короткие крепежные изделия
+						</p>
+						<div class="section-block__ic-wrap">
+							<svg class="section-block__ic section-block__ic--like">
+								<use xlink:href="images/sprite/sprite.svg#like">
+								</use>
+							</svg>
+						</div>
+					</div>
+				</div>
+				<a class="btn btn--primary btn--center js-fb-btn" href="#application-modal">Заказать доску</a>
+			</section>
+			<section class="section-block section-block--price section" id="price">
+				<div class="section-block__wrap section-block__wrap--price">
+					<div class="section-block__wrap-item">
+						<img class="section-block__img section-block__img--width" src="images/wood-width@1920.png" width="551" height="627" alt="Ширина доски под ваши задачи">
+
+					</div>
+					<div class="section-block__wrap-item">
+						<img class="section-block__img section-block__img--price" src="images/wood-price@1920.png" width="716" height="581" alt="17500 рублей за метр, всегда в наличии">
+					</div>
+				</div>
+				<a class="btn btn--primary btn--center js-fb-btn " href="#application-modal">Заказать доску</a>
+
+			</section>
+			<section class="section-block section-block--order section" id="order">
+				<h2 class="section-block__title section-block__title--center section-block__title--mb">
+            При заказе
+        </h2>
+				<div class="section-block__cols">
+					<div class="section-block__cols-item">
+						<div class="section-block__ic-wrap">
+							<svg class="section-block__ic section-block__ic--10">
+								<use xlink:href="images/sprite/sprite.svg#10">
+								</use>
+							</svg>
+						</div>
+						<div class="section-block__text-wrap">
+							<p class="section-block__cols-text">
+								Прогрессивная
+							</p>
+							<p class="section-block__cols-text">
+								<span class="section-block__text-bold">скидка</span>
+							</p>
+						</div>
+						<a class="btn btn--secondary btn--narrow" href="#calculation">Расчитать</a>
+					</div>
+					<div class="section-block__cols-item section-block__cols-item--wide">
+						<svg class="section-block__ic section-block__ic--20">
+							<use xlink:href="images/sprite/sprite.svg#20">
+							</use>
+						</svg>
+						<div class="section-block__text-wrap section-block__text-wrap--mb-mt">
+							<p class="section-block__cols-text section-block__cols-text--tiny">
+								Возможна бесплатная доставка
+							</p>
+						</div>
+						<a class="btn btn--primary js-fb-btn" href="#application-modal">Заказать доску</a>
+					</div>
+					<div class="section-block__cols-item">
+						<svg class="section-block__ic section-block__ic--houses">
+							<use xlink:href="images/sprite/sprite.svg#houses">
+							</use>
+						</svg>
+						<div class="section-block__text-wrap">
+							<p class="section-block__cols-text">
+								Индивидуальные
+							</p>
+							<p class="section-block__cols-text section-block__cols-text--no-margin">
+								<span class="section-block__text-bold"> условия </span>
+							</p>
+							<p class="section-block__cols-text">
+								для строителей
+							</p>
+							<p class="section-block__cols-desc">
+								При заключении договора на долговвременное сотрудничество
+							</p>
+						</div>
+						<a class="btn btn--center  btn--secondary btn--narrow js-fb-btn" href="#application-modal">Получить</a>
+					</div>
+				</div>
+
+			</section>
+			<section class="section-block section-block--usage section" id="usage">
+				<h2 class="section-block__title">
+            Каркасное строительство
+        </h2>
+
+				<div class="section-block__slider owl-carousel">
+					<div class="section-block__slider-item">
+						<picture class="section-block__picture">
+							<source media="(min-width: 1280px)" srcset="images/slider-item-1.png">
+								<source media="(min-width: 768px)" srcset="images/slider-item-1@tablet.png">
+									<img class="
+                    section-block__img" src="images/slider-item-1@mobile.png" width="100" alt="слайд">
+						</picture>
+					</div>
+					<div class="section-block__slider-item">
+						<picture class="section-block__picture">
+							<source media="(min-width: 1280px)" srcset="images/slider-item-5@1280.jpg">
+								<source media="(min-width: 768px)" srcset="images/slider-item-5@768.jpg">
+									<img class="
+                        section-block__img" src="images/slider-item-5@320.jpg" width="100" alt="слайд">
+						</picture>
+					</div>
+					<div class="section-block__slider-item">
+
+						<picture class="section-block__picture">
+							<source media="(min-width: 1280px)" srcset="images/slider-item-6@1280.jpg">
+								<source media="(min-width: 768px)" srcset="images/slider-item-6@768.jpg">
+									<img class="
+                        section-block__img" src="images/slider-item-6@320.jpg" width="100" alt="слайд">
+						</picture>
+					</div>
+					<div class="section-block__slider-item">
+						<picture class="section-block__picture">
+							<source media="(min-width: 1280px)" srcset="images/slider-item-7@1280.jpg">
+								<source media="(min-width: 768px)" srcset="images/slider-item-7@768.jpg">
+									<img class="
+                        section-block__img" src="images/slider-item-7@320.jpg" width="100" alt="слайд">
+						</picture>
+					</div>
+					<div class="section-block__slider-item">
+						<picture class="section-block__picture">
+							<source media="(min-width: 1280px)" srcset="images/slider-item-8@1280.jpg">
+								<source media="(min-width: 768px)" srcset="images/slider-item-8@768.jpg">
+									<img class="
+                        section-block__img" src="images/slider-item-8@320.jpg" width="100" alt="слайд">
+						</picture>
+					</div>
+					<div class="section-block__slider-item">
+						<picture class="section-block__picture">
+							<source media="(min-width: 1280px)" srcset="images/slider-item-9@1280.jpg">
+								<source media="(min-width: 768px)" srcset="images/slider-item-9@768.jpg">
+									<img class="
+                        section-block__img" src="images/slider-item-9@320.jpg" width="100" alt="слайд">
+						</picture>
+					</div>
+					<div class="section-block__slider-item">
+						<picture class="section-block__picture">
+							<source media="(min-width: 1280px)" srcset="images/slider-item-10@1280.jpg">
+								<source media="(min-width: 768px)" srcset="images/slider-item-10@768.jpg">
+									<img class="
+                        section-block__img" src="images/slider-item-10@320.jpg" width="100" alt="слайд">
+						</picture>
+					</div>
+				</div>
+				<div class="section-block__text-slider owl-carousel">
+					<div class="section-block__slider-item">
+						<p class="section-block__slider-text">
+							Быстрый монтаж позволяет ввести строение в эксплуатацию через нескольких месяцев
+						</p>
+					</div>
+					<div class="section-block__slider-item">
+						<p class="section-block__slider-text">
+							Деревянные каркасные строения обладают высоким коэффициентом энергосбережения
+						</p>
+
+					</div>
+					<div class="section-block__slider-item">
+						<p class="section-block__slider-text">
+							В зимних условиях дом быстро прогревается
+						</p>
+					</div>
+					<div class="section-block__slider-item">
+						<p class="section-block__slider-text">
+							Простые и удобные дома обладают высокой теплозащитой
+						</p>
+					</div>
+					<div class="section-block__slider-item">
+						<p class="section-block__slider-text">
+							Каракасные дома устойчивы к деформациям и имеют высокую жесткость
+						</p>
+					</div>
+					<div class="section-block__slider-item">
+						<p class="section-block__slider-text">
+							Дома не оседают, что позволяет производить внутреннюю отделку сразу после монтажа строения
+						</p>
+					</div>
+					<div class="section-block__slider-item">
+						<p class="section-block__slider-text">
+							Поверхность материалов обшивки может использоваться без дополнительной обработки
+						</p>
+					</div>
+					<div class="section-block__slider-item">
+						<p class="section-block__slider-text">
+							Изнутри каркасный дом обшивается гипсокартоном, что снижает стоимость внутреннего ремонта
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="section-block section-block--reviews section" id="reviews">
+				<div class="section-block__reviews-block">
+					<h2 class="section-block__title">
+                Отзывы
+            </h2>
+					<p class="section-reviews__text">
+						Качество нашей доски и нашей работы с клиентами подтверждается многочисленными отзывами наших благодарных покупателей. Присоединяйтесь и Вы к их числу!
+					</p>
+					<a class="btn btn--secondary js-fb-btn" href="#reviews-modal">Оставить отзыв</a>
+				</div>
+				<div class="section-block__reviews-slider owl-carousel">
+					<div class="section-block__reviews-slide">
+						<img class="section-block__img section-block__img--face" src="images/slider-face.png" width="157" height="157" alt="фото автора">
+						<p class="section-block__slider-title">
+							Олег, ООО «Росстрой»
+						</p>
+						<p class="section-block__reviews-text">
+							Работаем с этой компанией давно и успешно. Доски шикарного качества по приятным ценам. Удобно заказать, быстро доставят. Дерево – настоящее, родное. С такой древесиной очень приятно работать, построили несколько объектов. Все супер!
+						</p>
+						<div class="section-block__reviews-stars">
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+						</div>
+					</div>
+					<div class="section-block__reviews-slide">
+						<img class="section-block__img section-block__img--face" src="images/slider-face-2.png" width="157" height="157" alt="фото автора">
+						<p class="section-block__slider-title">
+							Сергей, бригадир
+						</p>
+						<p class="section-block__reviews-text">
+							Классная доска! Отдельно отмечу великолепное качество древесины и широкий выбор размеров. Так как я занимаюсь строительством, качество материалов и оперативная доставка являются важными критериями для моего бизнеса.
+						</p>
+						<div class="section-block__reviews-stars">
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+						</div>
+					</div>
+					<div class="section-block__reviews-slide">
+						<img class="section-block__img section-block__img--face" src="images/slider-face-3.png" width="157" height="157" alt="фото автора">
+						<p class="section-block__slider-title">
+
+							Олег, ООО «Росстрой»
+						</p>
+						<p class="section-block__reviews-text">
+							Работаем с этой компанией давно и успешно. Доски шикарного качества по приятным ценам. Удобно заказать, быстро доставят. Дерево – настоящее, родное. С такой древесиной очень приятно работать, построили несколько объектов. Все супер!
+						</p>
+						<div class="section-block__reviews-stars">
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+						</div>
+					</div>
+					<div class="section-block__reviews-slide">
+						<img class="section-block__img section-block__img--face" src="images/1488.png" width="157" height="157" alt="фото автора">
+						<p class="section-block__slider-title">
+							Владимир СК "Концепт"
+						</p>
+						<p class="section-block__reviews-text">
+							Доска нормальная, без обзола, без синевы. Работать было приятно, созвонился, заказал, оплатил. Всё приехало в срок. Ребята молодые, с юмором, молодцы!
+						</p>
+						<div class="section-block__reviews-stars">
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+						</div>
+					</div>
+					<div class="section-block__reviews-slide">
+						<img class="section-block__img section-block__img--face" src="images/face-88.jpg" width="160" height="160" alt="фото автора">
+						<p class="section-block__slider-title">
+							Юрий, частное лицо
+						</p>
+						<p class="section-block__reviews-text">
+							Было немного волнительно, честно говоря, заказывать через интернет, но выяснилось, что можно подъехать на склад и всё лично посмотреть, потрогать. В итоге всё хорошо, доска отличная, буду в следующем году строить баню, обязательно обращусь снова
+						</p>
+						<div class="section-block__reviews-stars">
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+							<svg class="section-block__ic section-block__ic--star">
+								<use xlink:href="images/sprite/sprite.svg#star">
+								</use>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section-block section-block--calculation" id="calculation">
+				<h2 class="section-block__title">
+            Расчитать заказ
+        </h2>
+				<form method="POST" class="calculalation-form" action="https://echo.htmlacademy.ru">
+					<div class="calculalation-form__calculation">
+						<span class="tabs__title">Размер доски (ТхШхД (мм)):</span>
+						<div class="tabs">
+							<input class="tabs__input" id="tab1" type="radio" name="tabs" value="small" checked>
+							<label class="tabs__label" for="tab1">38х95х6000</label>
+							<input class="tabs__input" id="tab2" type="radio" name="tabs" value="medium">
+							<label class="tabs__label" for="tab2">38х145х6000</label>
+							<input class="tabs__input" id="tab3" type="radio" name="tabs" value="large">
+							<label class="tabs__label" for="tab3">38х195х6000</label>
+							<section class="tabs__content" id="content1">
+								<div class="tabs__row tabs__row--btns">
+									<div class="tabs__col tabs__col--switcher">
+										<span class="tabs__title">Доставка нужна?</span>
+										<div class="switch-field">
+											<input type="radio" id="switch_left" name="deliver_0" value="yes" checked />
+											<label for="switch_left">да</label>
+											<input type="radio" id="switch_right" name="deliver_0" value="no" />
+											<label for="switch_right">нет</label>
+										</div>
+									</div>
+									<div class="tabs__col tabs__col--radio-btn">
+										<span class="tabs__title">Доставка в черте города?</span>
+										<div class="tabs__radio-wrap">
+											<div class="radio">
+												<input id="radio-1" name="deliver_place_0" type="radio" value="yes" checked>
+												<label for="radio-1" class="radio-label">Да (+500 Р к заказу)</label>
+											</div>
+											<div class="radio">
+												<input id="radio-2" name="deliver_place_0" value="no" type="radio">
+												<label for="radio-2" class="radio-label">Нет (+12 Р/км после КАД)</label>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="tabs__row tabs__row--count">
+									<p class="tabs__title">
+										Количество досок шт / м3:
+									</p>
+									<div class="tabs__counts-wrapper">
+										<span class="tabs__count tabs__count--pieces js-num"></span>
+										<span class="tabs__count tabs__count"> / 50,76</span>
+									</div>
+
+								</div>
+								<div class="tabs__row tabs__row--range">
+									<input class="tabs__range" type="text" id="range-1" name="range" value="" />
+								</div>
+								<div class="tabs__row tabs__row--price">
+									<div class="tabs__col tabs__col--price">
+										<p class="tabs__title">
+											Цена за м3 (руб):
+										</p>
+										<span class="price-count price"> 15750 Р</span>
+
+									</div>
+									<div class="tabs__col tabs__col--price">
+										<p class="tabs__title tabs__title--discount">
+											Скидка <span class="mobile-hidden">составляет </span>
+											(руб):
+										</p>
+										<span class="price-count discount">2370</span>
+									</div>
+									<div class="tabs__col tabs__col--price tabs__col--total">
+										<p class="tabs__count-title">
+											Итого к оплате (руб):
+										</p>
+										<div class="tabs__price-container">
+											<span class="tabs__no-discount-price">888 300</span>
+											<span class="tabs__total-price">799 470</span>
+										</div>
+									</div>
+								</div>
+							</section>
+							<section class="tabs__content" id="content2">
+								<div class="tabs__row tabs__row--btns">
+									<div class="tabs__col tabs__col--switcher">
+										<span class="tabs__title">Доставка нужна?</span>
+										<div class="switch-field">
+											<input type="radio" id="switch_left_1" name="deliver" value="yes" checked />
+											<label for="switch_left_1">да</label>
+											<input type="radio" id="switch_right_1" name="deliver" value="no" />
+											<label for="switch_right_1">нет</label>
+										</div>
+									</div>
+									<div class="tabs__col tabs__col--radio-btn">
+										<span class="tabs__title">Доставка в черте города?</span>
+										<div class="tabs__radio-wrap">
+											<div class="radio">
+												<input id="radio-12" name="deliver_place_2" value="yes" type="radio" checked>
+												<label for="radio-12" class="radio-label">Да (+500 Р к заказу)</label>
+											</div>
+											<div class="radio">
+												<input id="radio-21" name="deliver_place_2" value="no" type="radio">
+												<label for="radio-21" class="radio-label">Нет (+12 Р/км после КАД)</label>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="tabs__row tabs__row--count">
+									<p class="tabs__title">
+										Количество досок шт / м3:
+									</p>
+									<div class="tabs__counts-wrapper">
+										<span class="tabs__count tabs__count--pieces js-num"></span>
+										<span class="tabs__count tabs__count"> / 50,76</span>
+									</div>
+
+								</div>
+								<div class="tabs__row tabs__row--range">
+									<input class="tabs__range" type="text" id="range-2" name="range_2" value="" />
+								</div>
+								<div class="tabs__row tabs__row--price">
+									<div class="tabs__col tabs__col--price">
+										<p class="tabs__title">
+											Цена за м3 (руб):
+										</p>
+										<span class="price-count price"> 15750 Р</span>
+
+									</div>
+									<div class="tabs__col tabs__col--price">
+										<p class="tabs__title tabs__title--discount">
+											Скидка <span class="mobile-hidden">составляет</span> (руб):
+										</p>
+										<span class="price-count discount">2370</span>
+									</div>
+									<div class="tabs__col tabs__col--price tabs__col--total">
+										<p class="tabs__count-title">
+											Итого к оплате (руб):
+										</p>
+										<div class="tabs__price-container">
+											<span class="tabs__no-discount-price ">888 300</span>
+											<span class="tabs__total-price"> 799 470</span>
+										</div>
+									</div>
+								</div>
+
+							</section>
+							<section class="tabs__content" id="content3">
+								<div class="tabs__row tabs__row--btns">
+									<div class="tabs__col tabs__col--switcher">
+										<span class="tabs__title">Доставка нужна?</span>
+										<div class="switch-field">
+											<input type="radio" id="switch_left_3" name="deliver_3" value="yes" checked />
+											<label for="switch_left_3">да</label>
+											<input type="radio" id="switch_right_3" name="deliver_3" value="no" />
+											<label for="switch_right_3">нет</label>
+										</div>
+									</div>
+									<div class="tabs__col tabs__col--radio-btn">
+										<span class="tabs__title">Доставка в черте города?</span>
+										<div class="tabs__radio-wrap">
+											<div class="radio">
+												<input id="radio-4" name="deliver_place_3" type="radio" value="yes" checked>
+												<label for="radio-4" class="radio-label">Да (+500 Р к заказу)</label>
+											</div>
+											<div class="radio">
+												<input id="radio-3" name="deliver_place_3" value="no" type="radio">
+												<label for="radio-3" class="radio-label">Нет (+12 Р/км после КАД)</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tabs__row tabs__row--count">
+									<p class="tabs__title">
+										Количество досок шт / м3:
+									</p>
+									<div class="tabs__counts-wrapper">
+										<span class="tabs__count tabs__count--pieces js-num"></span>
+										<span class="tabs__count tabs__count"> / 50,76</span>
+									</div>
+
+								</div>
+								<div class="tabs__row tabs__row--range">
+									<input class="tabs__range" type="text" id="range-3" name="range_3" value="" />
+								</div>
+								<div class="tabs__row tabs__row--price">
+									<div class="tabs__col tabs__col--price">
+										<p class="tabs__title">
+											Цена за м3 (руб):
+										</p>
+										<span class="price-count price"> 15750 Р</span>
+
+									</div>
+									<div class="tabs__col tabs__col--price">
+										<p class="tabs__title tabs__title--discount">
+											Скидка <span class="mobile-hidden">составляет</span> (руб):
+										</p>
+										<span class="price-count discount">2370</span>
+									</div>
+									<div class="tabs__col tabs__col--price tabs__col--total">
+										<p class="tabs__count-title">
+											Итого к оплате (руб):
+										</p>
+										<div class="tabs__price-container">
+											<span class="tabs__no-discount-price ">888 300</span>
+											<span class="tabs__total-price"> 799 470</span>
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+					<div class="calculalation-form__user-data">
+						<label class="calculalation-form__label" for="name">Имя</label>
+						<div class="calculalation-form__field-wrap">
+							<input class="calculalation-form__field" type="text" id="name" required>
+						</div>
+						<label class="calculalation-form__label" for="tel">Телефон</label>
+						<div class="calculalation-form__field-wrap">
+							<input class="calculalation-form__field" type="tel" id="tel" placeholder="+7 (__ __ __) __ __ __-__ __-__ __" required>
+						</div>
+						<label class="calculalation-form__label" for="mail">E-mail:</label>
+						<div class="calculalation-form__field-wrap">
+							<input class="calculalation-form__field" placeholder="________________@________ . ____" type="text" id="mail" required>
+						</div>
+						<label class="calculalation-form__label" for="address">Адрес</label>
+						<div class="calculalation-form__field-wrap">
+							<input class="calculalation-form__field" type="text" id="address" required>
+						</div>
+						<label class="calculalation-form__label" for="note">Примечание</label>
+						<div class="calculalation-form__field-wrap">
+							<input class="calculalation-form__field" type="text" id="note" required>
+						</div>
+					</div>
+					<div class="calculation-form__text-btn-wrap">
+						<span class="calculation-form__note">
+                    Нажимая кнопку «Отправить заказ», я даю свое согласие на обработку моих персональных данных, в
+                    соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях
+                    и
+                    для целей, определенных в Согласии на обработку персональных данных
+                </span>
+						<button class="btn btn--primary" type="submit">Отправить заказ</button>
+					</div>
+				</form>
+			</section>
+			<section class="section-block section-block--contacts" id="contacts">
+				<h2 class="section-block__title">
+            Карта сайта
+        </h2>
+				<div class="cotacts-map">
+					<h3 class="cotacts-map__title">Контакты:</h3>
+					<div class="cotacts-map__list">
+						<div class="contacts__tabs">
+							<input class="tabs__input" id="address_1" type="radio" name="address" checked>
+							<label class="tabs__map-label cotacts-map__item" for="address_1"><span class="cotacts-map__h3">Адрес&nbsp;склада:
+                        </span>
+								<span class="mobile-hidden">
+                            Поселок Кузьмоловский, Токсовское (Ленинградское) шоссе, 8км. Ориентир – деревянная фигура
+                            медведя
+                            на трассе
+                        </span>
+							</label>
+							<input class="tabs__input" id="address_2" type="radio" name="address">
+							<label class="tabs__map-label tabs__label--map cotacts-map__item" for="address_2">
+
+								<span class="cotacts-map__h3">Адрес&nbsp;офиса:</span>
+								<span class="mobile-hidden">Санкт-Петербург, Гражданский пр-т, 22, офис 204</span>
+							</label>
+							<section class="tabs__content mobile-shown" id="content_1">
+								<span class="">
+                            Поселок Кузьмоловский, Токсовское (Ленинградское) шоссе, 8км. Ориентир – деревянная фигура
+                            медведя
+                            на трассе
+                        </span>
+							</section>
+							<section class="tabs__content mobile-shown" id="content_2">
+								<span class="">Санкт-Петербург, Гражданский пр-т, 22, офис 204</span>
+							</section>
+						</div>
+
+						<div class="cotacts-map__item"><span class="cotacts-map__h3">Телефоны:</span>
+							Офис: <a class="cotacts-map__tel" href="tel:+78126666767">+7 (812) 666-67-67</a> 
+							<br>
+							<p class="contacts-map__headline">
+								Менеджеры:
+							</p>
+
+							<a class="cotacts-map__tel" href="tel:+78126666767">+7 (931) 287-19-47</a> Петр
+
+							<p class="contacts-map__headline">
+								Руководитель отдела:
+							</p>
+							<a class="cotacts-map__tel" href="tel:+78126666767">+7 (921) 414-83-61</a> Андрей
+						</div>
+
+
+					</div>
+				</div>
+				<div id="map_1" class="js-map js-map-1 active"></div>
+				<div id="map_2" class="js-map"></div>
+
+				<script>
+					function initMap() {
+					                var location = { lat: 60.103360, lng: 30.499437 };
+					                var location2 = { lat: 60.004204, lng: 30.387290 };
+					                var image = {
+					                    url: 'images/pin.png',
+					                    size: new google.maps.Size(60, 81)
+					                };
+					                var map = new google.maps.Map(document.getElementById('map_1'), {
+					                    disableDefaultUI: true,
+					                    zoomControl: true,
+					                    zoom: 15,
+					                    center: location,
+					                    styles: [
+					                        {
+					                            "featureType": "all",
+					                            "elementType": "labels.text.fill",
+					                            "stylers": [
+					                                {
+					                                    "saturation": 36
+					                                },
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 40
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "all",
+					                            "elementType": "labels.text.stroke",
+					                            "stylers": [
+					                                {
+					                                    "visibility": "on"
+					                                },
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 16
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "all",
+					                            "elementType": "labels.icon",
+					                            "stylers": [
+					                                {
+					                                    "visibility": "off"
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "administrative",
+					                            "elementType": "geometry.fill",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 20
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "administrative",
+					                            "elementType": "geometry.stroke",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 17
+					                                },
+					                                {
+					                                    "weight": 1.2
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "landscape",
+					                            "elementType": "geometry",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 20
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "poi",
+					                            "elementType": "geometry",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 21
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "road.highway",
+					                            "elementType": "geometry.fill",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 17
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "road.highway",
+					                            "elementType": "geometry.stroke",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 29
+					                                },
+					                                {
+					                                    "weight": 0.2
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "road.arterial",
+					                            "elementType": "geometry",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 18
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "road.local",
+					                            "elementType": "geometry",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 16
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "transit",
+					                            "elementType": "geometry",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 19
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "water",
+					                            "elementType": "geometry",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 17
+					                                }
+					                            ]
+					                        }
+					                    ]
+					                });
+					                var marker = new google.maps.Marker({
+					                    position: location,
+					                    map: map,
+					                    icon: image
+					                });
+					
+					                var map = new google.maps.Map(document.getElementById('map_2'), {
+					                    disableDefaultUI: true,
+					                    zoomControl: true,
+					                    zoom: 15,
+					                    center: location2,
+					                    styles: [
+					                        {
+					                            "featureType": "all",
+					                            "elementType": "labels.text.fill",
+					                            "stylers": [
+					                                {
+					                                    "saturation": 36
+					                                },
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 40
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "all",
+					                            "elementType": "labels.text.stroke",
+					                            "stylers": [
+					                                {
+					                                    "visibility": "on"
+					                                },
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 16
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "all",
+					                            "elementType": "labels.icon",
+					                            "stylers": [
+					                                {
+					                                    "visibility": "off"
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "administrative",
+					                            "elementType": "geometry.fill",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 20
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "administrative",
+					                            "elementType": "geometry.stroke",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 17
+					                                },
+					                                {
+					                                    "weight": 1.2
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "landscape",
+					                            "elementType": "geometry",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 20
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "poi",
+					                            "elementType": "geometry",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 21
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "road.highway",
+					                            "elementType": "geometry.fill",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 17
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "road.highway",
+					                            "elementType": "geometry.stroke",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 29
+					                                },
+					                                {
+					                                    "weight": 0.2
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "road.arterial",
+					                            "elementType": "geometry",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 18
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "road.local",
+					                            "elementType": "geometry",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 16
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "transit",
+					                            "elementType": "geometry",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 19
+					                                }
+					                            ]
+					                        },
+					                        {
+					                            "featureType": "water",
+					                            "elementType": "geometry",
+					                            "stylers": [
+					                                {
+					                                    "color": "#000000"
+					                                },
+					                                {
+					                                    "lightness": 17
+					                                }
+					                            ]
+					                        }
+					                    ]
+					                });
+					
+					                var marker2 = new google.maps.Marker({
+					                    position: location2,
+					                    map: map,
+					                    icon: image
+					                });
+					            }
+				</script>
+
+
+
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQ3XQizpmpy-1vmSOrftvD263JNNrh28U&callback=initMap" async defer></script>
+
+			</section>
+		</div>
+	</div>
+
+
+
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<div class="footer-top">
+				<div class="logo-wrapper">
+					<svg class="footer-logo__img">
+						<use xlink:href="images/sprite/sprite.svg#logo">
+						</use>
+					</svg>
+					<p class="footer-logo__text">
+						Строительные материалы для&nbsp;каркасного строительства
+					</p>
+				</div>
+				<ul class="footer-menu__list">
+					<li class="footer-menu__item"><a class="footer-menu__link" href="#intro">Доска</a>
+					</li>
+					<li class="footer-menu__item"><a class="footer-menu__link" href="#advantages">Преимущества</a>
+					</li>
+					<li class="footer-menu__item"><a class="footer-menu__link" href="#price">Стоимость</a>
+					</li>
+					<li class="footer-menu__item"><a class="footer-menu__link" href="#order"> Скидки / Условия</a>
+					</li>
+					<li class="footer-menu__item"><a class="footer-menu__link" href="#usage">Применение</a>
+					</li>
+					<li class="footer-menu__item"><a class="footer-menu__link" href="#reviews"> Отзывы</a>
+					</li>
+					<li class="footer-menu__item"><a class="footer-menu__link" href="#calculation">Расчитать
+                        заказ</a>
+					</li>
+					<li class="footer-menu__item"><a class="footer-menu__link" href="#contacts">Контакты</a>
+					</li>
+				</ul>
+				<div class="js-burger-parent">
+					<div class="hamburger footer-top-hamburger">
+						<span class="hamburger__line"></span>
+						<span class="hamburger__line"></span>
+						<span class="hamburger__line"></span>
+					</div>
+				</div>
+			</div>
+			<div class="footer-tel">
+				<ul class="footer-tel-list">
+					<li class="footer-tel-list__item"><a class="footer-tel-list__link" href="tel:+78126666767">+7 (812)
+                        666-67-67 </a>
+					</li>
+					<li class="footer-tel-list__item"><a class="footer-tel-list__link" href="tel:+79312871947">+7 (931)
+                        287-19-47 </a>
+					</li>
+					<!-- <li class="footer-tel-list__item"><a class="footer-tel-list__link" href="tel:+79531706055">+7 (953)
+                        170-60-55</a></li> -->
+					<li class="footer-tel-list__item"><a class="footer-tel-list__link" href="tel:+79214148361">+7 (921)
+                        414-83-61</a>
+					</li>
+				</ul>
+				<a href="#application-modal" class="btn btn--primary js-fb-btn">Заказать доску</a>
+			</div>
+			<div class="footer-copyright">
+				<p class="copyright">&#169; 2018 ООО “Небо”. Все права защищены.</p>
+				<p class="copyright">Developed by <a href="http://ttcsoft.ru/" target="_blank">ttcsoft.ru</a>
+				</p>
+			</div>
+		</div>
+	</footer>
+	<div class="modals-box">
+		<div class="modal js-modal-parent" id="application-modal">
+			<button class="close-btn js-fb-close" type="button">
+				<span class="close-btn__line"></span>
+				<span class="close-btn__line"></span>
+			</button>
+			<p class="modal__title">
+				Отправить заявку
+			</p>
+			<form method="POST" class="modal__form">
+				<div class="modal-col">
+					<label class="modal__label" for="application-name">Имя</label>
+					<div class="modal__field-wrap">
+						<input class="modal__field" type="text" id="application-name">
+					</div>
+					<label class="modal__label" for="application-mail">Email</label>
+					<div class="modal__fied-wrap">
+						<input class="modal__field" type="email" id="application-mail" placeholder="________________@________ . ____" required>
+					</div>
+				</div>
+				<div class="modal-col">
+					<label class="modal__label" for="application-tel">Телефон</label>
+					<div class="modal__field-wrap">
+						<input class="modal__field" type="tel" id="application-tel" placeholder="+7 (__ __ __) __ __ __-__ __-__ __" required>
+					</div>
+					<label class="modal__label" for="application-address">Адрес</label>
+					<div class="modal__fied-wrap">
+						<input class="modal__field" type="address" id="application-address" required>
+					</div>
+				</div>
+				<div class="modal__row">
+					<label class="modal__label" for="application-text">Примечание:</label>
+					<textarea class="modal__note" name="modal-note" id="application-text" rows="3"></textarea>
+				</div>
+				<p class="modal__text-note">
+					Нажимая кнопку «Отправить заказ», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Согласии на обработку персональных
+					данных
+				</p>
+				<button class="btn btn--primary" type="submit">Отправить заявку</button>
+
+			</form>
+		</div>
+		<div class="modal js-modal-parent" id="reviews-modal">
+			<button class="close-btn js-fb-close" type="button">
+				<span class="close-btn__line"></span>
+				<span class="close-btn__line"></span>
+			</button>
+			<p class="modal__title">
+				Оставить отзыв
+			</p>
+			<form method="POST" class="modal__form">
+				<div class="modal-col">
+					<label class="modal__label" for="reviewer-name">Имя</label>
+					<div class="modal__field-wrap">
+						<input class="modal__field" type="text" id="reviewer-name" required>
+					</div>
+				</div>
+				<div class="modal-col">
+					<label class="modal__label" for="reviewer-company">Компания</label>
+					<div class="modal__field-wrap">
+						<input class="modal__field" type="text" id="reviewer-company" required>
+					</div>
+				</div>
+				<div class="modal__row">
+					<label class="modal__label" for="application-text">Примечание:</label>
+					<textarea class="modal__note" name="modal-note" id="application-text" rows="3"></textarea>
+				</div>
+				<p class="modal__text-note">
+					Нажимая кнопку «Отправить отзыв, я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Согласии на обработку персональных
+					данных
+				</p>
+				<button class="btn btn--primary" type="submit">Отправить отзыв</button>
+
+			</form>
+
+
+		</div>
+
+
+
+
+
+	</div>
+	<!-- jquery -->
+	<script src="js/jquery.min.js"></script>
+
+	<!-- app -->
+	<script src="js/libs.js"></script>
+	<script src="js/app.js"></script>
+
+
+
+
+</body>
+
+</html>
